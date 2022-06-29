@@ -6,7 +6,7 @@ const mg = mailgun({
 
 const sendWelcomeEmail = (email, name) => {
   const data = {
-    from: "Sarthak <sarthak@example.com>",
+    from: "Task-App <help@example.com>",
     to: email,
     subject: "Thank you for signing up!",
     text: `Welcome to the app, ${name}.`,
